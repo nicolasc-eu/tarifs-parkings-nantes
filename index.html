@@ -1,0 +1,43 @@
+<html ng-app="TarifsParkings">
+    <head>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <link rel="stylesheet" href="style/vendor/css/bootstrap.css">
+        <link rel="stylesheet" href="style/style.css">
+        <script src="js/vendor/jquery.min.js"></script>
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/vendor/angular.js"></script>
+        <script src="js/vendor/angular-route.js"></script>
+        <script src="js/vendor/angular-cookies.min.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
+        <script type="text/javascript" src="js/parkings.js"></script>
+        <script type="text/javascript" src="js/tarifs.js"></script>
+    </head>
+    <body>
+        <div class="container header">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 gri">
+                    <h1>Prix des parkings Nantais</h1>
+                    <h3><a href="">Utilisation de l'OpenData avec AngularJS</a></h3>
+                </div>
+            </div>
+        </div>
+        <div ng-view></div>
+        <script src='js/graphics.js' type="text/javascript"></script>
+        <script language="javascript" type="text/javascript">
+            $(document).ready(function () {
+                graphics.init();
+            }); 
+        </script>
+        <div class="container footer">
+            <div class="row">
+                <div class="col-lg-1 col-md-1 col-sm-1">
+                </div>
+                <div class="col-lg-10 col-md-10 col-sm-10 ">
+                    &#169; 2014 - <a href="http://blog.nicolasc.eu/">Nicolas Comont</a> // Design par <a href="http://www.laurianne-levasseur.com">Laurianne Levasseur</a>
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-1">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

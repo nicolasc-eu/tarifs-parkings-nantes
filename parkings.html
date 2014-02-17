@@ -1,0 +1,20 @@
+<div class="container" ng-controller="ParkingController" ng-model="model">
+    <div class="row row-admin">
+        <div class="col-md-4"></div>
+        <div class="col-md-4"></div>
+        <div class="col-md-4"></div>
+    </div>
+    <div class="row tabstock">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="container admin">                
+                <div class="row">
+                    <a ng-repeat="parking in parkings" ng-click="consult(parking)">
+                        <div class="col-lg-4 col-md-4 col-sm-4 custom-tile" >
+                            <span class="glyphicon"></span><h2>{{parking}}</h2>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,134 @@
+/* BASE  
+---------------------------------------------------------------------------- */
+body{
+	background-color: #333132;
+    margin-bottom: 60px;
+}
+
+label{
+	padding-top: 15px;
+}
+
+/* Index 
+---------------------------------------------------------------------------- */
+
+.gri{
+
+	color:#333132;
+	text-align: center;
+}
+
+/* login 
+---------------------------------------------------------------------------- */
+
+.row-login{
+	margin: auto;
+	padding: 10% 0 0;
+}
+
+.login {
+	background-color: #e9d2bb;
+	padding: 10px 15px ;
+}
+
+.custom-error {
+	margin-top: 10px;
+	padding: 5px;
+	background-color: #dc9251;
+	color: white;
+	font-size: 1em;
+}
+
+.custom-success {
+	margin-top: 10px;
+
+	padding: 5px;
+	background-color: #528061;
+	color: white;
+	font-size: 1em;
+}
+
+.server-error {
+	margin-top: 10px;
+	padding: 5px;
+	background-color: #9a5050;
+	color: white;
+	font-size: 1em;
+}
+
+.help-inline{
+	font-size:0.8em;
+	color:#9a5050;
+
+}
+
+/* admin 
+---------------------------------------------------------------------------- */
+
+.row-admin{
+	margin: auto;
+	padding: 20px 0 0;
+}
+
+.custom-tile{
+
+	height:300px;
+	font-size: 10em;
+	background-color: #e9d2bb;
+	color:#333132;
+	border: 10px solid #333132;
+	text-align: center;
+	padding-top: 36px;
+}
+
+
+.custom-tile:hover{
+
+	background-color: #d0b9a2;
+
+}
+
+.menuadmin {
+	margin-left: auto;
+	margin-right: auto;
+	width: 430px;
+}
+
+.footer{
+	background-color: #635a5f;
+	position: fixed;
+	bottom: 0;
+	height: 35px;
+	width: 100%;
+	color:#333132;
+	font-size: 12px;
+	padding-top: 8px;
+}
+
+.header{
+	background-color: #635a5f;
+		width: 100%;
+		color:#333132;
+}
+
+.admin{
+	padding-top:75px;
+}
+
+.sousheader{
+	padding-top: 10px;
+		padding-bottom: 10px;
+	color:#e9d2bb;
+	font-size: 12px;
+	background-color: #2a292a;
+		width: 100%;
+}
+
+.quitter:hover{
+	color:#FFF;
+	text-decoration: none;
+}
+
+.quitter{
+	color:#FFF;
+}
